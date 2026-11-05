@@ -14,9 +14,4 @@ INSERT INTO musicas_miguel (titulo, artista, genero, ano, duracao) VALUES
 ('Tempo Perdido', 'Legião Urbana', 'Rock', 1986, 5);
 
 
-const sql = mysql2.createPool({
-    host: process.env.HOST_BANCO,
-    user: process.env.USUARIO_BANCO,
-    password: process.env.SENHA_BANCO,
-    database: process.env.NOME_BANCO
-})
+SHOW TABLES;
